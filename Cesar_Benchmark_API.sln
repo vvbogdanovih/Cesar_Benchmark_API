@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesar_Benchmark_API", "Cesar_Benchmark_API\Cesar_Benchmark_API.csproj", "{73BCA7F3-963F-4F75-A60F-2C4BE3326B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesar", "Cesar\Cesar.csproj", "{43801319-E6FA-471C-8E2D-86E1E33783DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{2C4D6A4A-E790-47D7-BE73-63DA7E2D17EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BCA7F3-963F-4F75-A60F-2C4BE3326B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BCA7F3-963F-4F75-A60F-2C4BE3326B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BCA7F3-963F-4F75-A60F-2C4BE3326B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BCA7F3-963F-4F75-A60F-2C4BE3326B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43801319-E6FA-471C-8E2D-86E1E33783DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43801319-E6FA-471C-8E2D-86E1E33783DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43801319-E6FA-471C-8E2D-86E1E33783DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43801319-E6FA-471C-8E2D-86E1E33783DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4D6A4A-E790-47D7-BE73-63DA7E2D17EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4D6A4A-E790-47D7-BE73-63DA7E2D17EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4D6A4A-E790-47D7-BE73-63DA7E2D17EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4D6A4A-E790-47D7-BE73-63DA7E2D17EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25745045-FEB3-4E39-B427-618456E4BDFD}
+	EndGlobalSection
+EndGlobal
