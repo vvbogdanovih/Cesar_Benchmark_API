@@ -1,4 +1,4 @@
-
+﻿
 namespace Cesar_Benchmark_API
 {
     public class Program
@@ -6,7 +6,11 @@ namespace Cesar_Benchmark_API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.WebHost.ConfigureKestrel(serverOptions =>
+            {
+                // Збільшіть максимальний розмір тіла запиту (у цьому прикладі до 50 МБ)
+                serverOptions.Limits.MaxRequestBodySize = 1024 * 1024 * 1024; // 50 МБ
+            });
             // Add services to the container.
 
             builder.Services.AddControllers();
